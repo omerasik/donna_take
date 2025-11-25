@@ -7,7 +7,6 @@ import {
   Scripts,
   ScrollRestoration,
 } from 'react-router';
-import picoStylesheet from '@picocss/pico/css/pico.min.css?url';
 import appStylesheet from './styles/app.css?url';
 import Footer from './components/Footer.jsx';
 
@@ -22,7 +21,6 @@ export const links = () => [
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap',
   },
-  { rel: 'stylesheet', href: picoStylesheet },
   { rel: 'stylesheet', href: appStylesheet },
 ];
 
